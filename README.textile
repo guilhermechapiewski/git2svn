@@ -14,3 +14,7 @@ $ svn checkout https://myrepo.googlecode.com/svn/trunk/ svn_repo</pre>
 2) Configure *git2svn.sh* variables (*GIT_DIR* and *SVN_DIR*) with locations of both repositories.
 
 3) Run the script from anywhere except one of these two directories.
+
+h2. Be careful
+
+This script will delete everything from your SVN repository when the first commit is migrated.
