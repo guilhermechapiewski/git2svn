@@ -15,6 +15,13 @@ $ svn checkout https://myrepo.googlecode.com/svn/trunk/ svn_repo</pre>
 
 3) Run the script from anywhere except one of these two directories.
 
+h2. Example
+
+If you want to see an example migration, check the following repositories:
+
+Source: "http://github.com/acarlos1000/MemeiPad/commits/master":http://github.com/acarlos1000/MemeiPad/commits/master
+Destination: "http://code.google.com/p/memeipad/source/list":http://code.google.com/p/memeipad/source/list
+
 h2. Be careful
 
 This script will delete everything from your SVN repository when the first commit is migrated.
