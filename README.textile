@@ -1,0 +1,16 @@
+h1. git2svn
+
+This is a script to migrate a Git repository to SVN preserving the commits history. This is not something that people will use a lot, but in case you need to do something like this (like I did - don't ask me why), you might want to use this script.
+
+If you don't need to preserve your history, there's a "good guide on Google Code explaining how to migrate in a simpler way":http://code.google.com/p/support/wiki/ImportingFromGit.
+
+h2. Usage
+
+1) Clone your Git repository and checkout your SVN repository:
+
+<pre>$ git clone git://github.com/guilhermechapiewski/myrepo.git git_repo
+$ svn checkout https://myrepo.googlecode.com/svn/trunk/ svn_repo</pre>
+
+2) Configure *git2svn.sh* variables (*GIT_DIR* and *SVN_DIR*) with locations of both repositories.
+
+3) Run the script from anywhere except one of these two directories.
