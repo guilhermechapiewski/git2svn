@@ -24,4 +24,4 @@ Destination: "http://code.google.com/p/memeipad/source/list":http://code.google.
 
 h2. Be careful
 
-This script will delete everything from your SVN repository when the first commit is migrated.
+This script will delete all the files from your SVN repository when the migration of the first commit happens, and will create new revisions based on the commits from the Git repository.
